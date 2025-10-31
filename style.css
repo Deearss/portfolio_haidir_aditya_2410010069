@@ -10,10 +10,10 @@
 
 * {
   box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -40,11 +40,28 @@ body {
 .profile-photo {
   display: block;
   margin: 0 auto 12px auto;
+
   width: 250px;
   height: 250px;
+  
   object-fit: cover;
+
   border-radius: 50%; /* membuat bulat */
   border: 8px solid red;
+}
+
+.fyi {
+    margin-top: 12px;
+    padding: 10px 20px;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    
+    background-color: var(--accent);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 h1 {

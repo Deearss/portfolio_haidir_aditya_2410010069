@@ -15,11 +15,11 @@
   </head>
   <body>
     <main class="container">
+      <!-- foto profil dan deskripsi singkat -->
       <header class="hero">
-        <!-- Avatar dibuat sebagai data-URI SVG sehingga tidak perlu file eksternal -->
         <img
           class="profile-photo"
-          src="/haidir.jpg"
+          src="haidir.jpg"
           alt="Foto Profil Haidir Aditya"
         />
         <h1>Haidir Aditya</h1>
@@ -29,6 +29,7 @@
         </p>
       </header>
 
+      <!-- About me -->
       <section class="about">
         <h2>Tentang Saya</h2>
         <p align="justify">
@@ -37,22 +38,22 @@
           belajar HTML, CSS, dan JavaScript untuk membuat situs yang responsif
           dan rapi.
         </p>
+
+        <button class="fyi">Tampilkan Fakta Menarik</button>
       </section>
 
+      <!-- Hobbies -->
       <section class="hobbies">
         <h2>Minat &amp; Hobi Saya</h2>
         <ul>
           <li>Belajar pemrograman web dan UI/UX</li>
           <li>Menonton video teknologi dan tutorial</li>
           <li>Menonton Podcast</li>
-          <li>Menonton Film Horror</li>
           <li>Menonton Anime</li>
-          <li>Membuat Novel Fantasi</li>
-          <li>Bermain Catur</li>
-          <li>Mendengarkan musik orchestra</li>
         </ul>
       </section>
 
+      <!-- Skills -->
       <section class="skills">
         <h2>Keterampilan yang Dipelajari</h2>
         <ul>
@@ -80,6 +81,7 @@
         </ul>
       </section>
 
+      <!-- Contact -->
       <section class="contact">
         <h2>Hubungi Saya</h2>
         <p align="justify">
@@ -113,6 +115,7 @@
         </ul>
       </section>
 
+      <!-- Footer -->
       <footer class="site-footer">
         <p>
           © <span id="year"></span> Haidir Aditya. Semua hak kecil dilindungi.
@@ -120,9 +123,6 @@
       </footer>
     </main>
 
-    <script>
-      // Set tahun otomatis
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
