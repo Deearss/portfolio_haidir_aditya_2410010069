@@ -1,0 +1,141 @@
+/* Umum */
+:root {
+  --bg: #eef6fb; /* latar yang bukan putih */
+  --card: #ffffff;
+  --text: #331111;
+  --muted: #9f7e7e;
+  --accent: #852424;
+  --primary: #c41010;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.9)
+  );
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(17, 34, 51, 0.08);
+}
+
+.hero {
+  text-align: center;
+  padding: 6px 12px 18px 12px;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 12px auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%; /* membuat bulat */
+  border: 8px solid red;
+}
+
+h1 {
+  margin: 20px 0 10px 0;
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.tagline {
+  margin: 0;
+  color: var(--muted);
+}
+
+section {
+  margin-top: 20px;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+ul {
+  padding-left: 0rem;
+}
+
+ul > li {
+  height: 40px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  margin: 5px;
+}
+
+ul > li::before {
+  content: "⇾";
+  color: var(--accent);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 10px;
+}
+
+ul > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  gap: 5px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.site-footer {
+  margin-top: 28px;
+  padding-top: 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Responsif kecil */
+@media (max-width: 520px) {
+  .container {
+    padding: 20px;
+    margin: 20px;
+  }
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+  }
+ 
+}
+
+/* Ruang bernapas pada paragraf */
+p {
+  margin: 0 0 12px 0;
+}

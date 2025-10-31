@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio Haidir Aditya</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <!-- Avatar dibuat sebagai data-URI SVG sehingga tidak perlu file eksternal -->
+        <img
+          class="profile-photo"
+          src="/haidir.jpg"
+          alt="Foto Profil Haidir Aditya"
+        />
+        <h1>Haidir Aditya</h1>
+        <p class="tagline">
+          Mahasiswa &amp; Pengembang Web pemula yang suka membuat halaman yang
+          bersih dan mudah dibaca.
+        </p>
+      </header>
+
+      <section class="about">
+        <h2>Tentang Saya</h2>
+        <p align="justify">
+          <img width="12" />Saya seorang mahasiswa yang tertarik dengan web
+          development, desain antarmuka, dan pengalaman pengguna. Saya suka
+          belajar HTML, CSS, dan JavaScript untuk membuat situs yang responsif
+          dan rapi.
+        </p>
+      </section>
+
+      <section class="hobbies">
+        <h2>Minat &amp; Hobi Saya</h2>
+        <ul>
+          <li>Belajar pemrograman web dan UI/UX</li>
+          <li>Menonton video teknologi dan tutorial</li>
+          <li>Menonton Podcast</li>
+          <li>Menonton Film Horror</li>
+          <li>Menonton Anime</li>
+          <li>Membuat Novel Fantasi</li>
+          <li>Bermain Catur</li>
+          <li>Mendengarkan musik orchestra</li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <h2>Keterampilan yang Dipelajari</h2>
+        <ul>
+          <li>HTML &amp; CSS (layout responsif, flexbox)</li>
+          <li>Framework Javascript (Next.js, Nest.js)</li>
+          <li>Bootstrap & Tailwind</li>
+          <li>Framer Motion</li>
+          <li>Zustand</li>
+          <li>Zod</li>
+          <li>Laravel</li>
+          <li>Unit Testing (Jest)</li>
+          <li>Web Socket</li>
+          <li>Autentikasi dengan JWT</li>
+          <li>Membuat game Roblox</li>
+          <li>Java Desktop Application</li>
+          <li>Python dasar</li>
+          <li>Database MySQL, Firebase, MongoDB</li>
+          <li>Git & Github</li>
+          <li>Docker</li>
+          <li>n8n</li>
+          <li>WEB3</li>
+          <li>Cryptocurrency</li>
+          <li>Public Speaking</li>
+          <li>Stand Up Comedy</li>
+        </ul>
+      </section>
+
+      <section class="contact">
+        <h2>Hubungi Saya</h2>
+        <p align="justify">
+          <img width="12" />Ingin berdiskusi atau melihat portofolio kode saya?
+          Silakan hubungi lewat salah satu tautan di bawah.
+        </p>
+        <ul>
+          <li>
+            <a
+              title="Github"
+              href="https://github.com/Deearss"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="github.png" width="30" alt="github logo" />
+              <span> — </span>
+              <span> Deearss </span>
+            </a>
+          </li>
+          <li>
+            <a
+              title="Email"
+              href="mailto:haidiraditya16@gmail.com"
+              target="_blank"
+            >
+              <img src="envelope.png" width="30" alt="email logo" />
+              <span> — </span>
+              <span>haidiraditya16@gmail.com</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="site-footer">
+        <p>
+          © <span id="year"></span> Haidir Aditya. Semua hak kecil dilindungi.
+        </p>
+      </footer>
+    </main>
+
+    <script>
+      // Set tahun otomatis
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
