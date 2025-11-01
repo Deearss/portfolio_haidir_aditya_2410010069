@@ -7,7 +7,8 @@ let facts = [
   "Saya suka menulis novel fantasi di waktu luang saya.",
   "Saya suka main catur.",
   "Saya penyuka musik orkestra.",
-  "Saya suka menonton film horror, terutama yang bertemakan eksorsisme.",
+  "Saya terkadang berlatih stand up comedy di waktu luang.",
+  "Saya suka berlatih public speaking di depan cermin.",
 ];
 fyiButton.addEventListener("click", () => {
   let randomFact = facts[Math.floor(Math.random() * facts.length)];
