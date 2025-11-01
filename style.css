@@ -43,7 +43,7 @@ body {
 
   width: 250px;
   height: 250px;
-  
+
   object-fit: cover;
 
   border-radius: 50%; /* membuat bulat */
@@ -51,17 +51,17 @@ body {
 }
 
 .fyi {
-    margin-top: 12px;
-    padding: 10px 20px;
+  margin-top: 12px;
+  padding: 10px 20px;
 
-    font-size: 14px;
-    font-weight: 500;
-    color: #fff;
-    
-    background-color: var(--accent);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+
+  background-color: var(--accent);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 h1 {
@@ -139,6 +139,22 @@ a:hover {
   font-size: 0.9rem;
 }
 
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  margin-top: 14px;
+}
+
+.project-image {
+  height: 350px;
+
+  border-radius: 10px;
+}
+
 /* Responsif kecil */
 @media (max-width: 520px) {
   .container {
@@ -149,7 +165,10 @@ a:hover {
     width: 180px;
     height: 180px;
   }
- 
+
+  .project-image {
+    height: 200px;
+  }
 }
 
 /* Ruang bernapas pada paragraf */
