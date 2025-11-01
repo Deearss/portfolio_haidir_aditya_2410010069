@@ -149,10 +149,21 @@ a:hover {
   margin-top: 14px;
 }
 
-.project-image {
-  height: 350px;
+.project a {
+  display: block;
+  text-decoration: none;
+
+  width: 350px;
+  aspect-ratio: 16 / 9;
 
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .project-title {
